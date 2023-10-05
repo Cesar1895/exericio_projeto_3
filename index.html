@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Clube de Regatas do Flamengo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-clube" class="nav-link"><i class="bi bi-house-door me-1"></i> Sobre o clube</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#idolos" class="nav-link"><i class="bi bi-person me-1"></i> Idolos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#conquistas" class="nav-link"><i class="bi bi-trophy me-1"></i> Conquistas</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link"><i class="bi bi-chat-left-text me-1"></i> Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-clube">
+            <div class="container">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class=" img-fluid w-100" src="imagens/flamengo-campeao19.jpg" alt="Flamengo campeão 2019">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class=" img-fluid w-100" src="imagens/flamengo-campeao2022.jpg" alt=" Flamengo campeão 2022">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class=" img-fluid w-100" src="imagens/flamengo-campeao-cdb2022.jpg" alt="Flamengo campeão Copa do Brasil 22">
+                    </div>
+                </div>
+                <button class="carousel-control-prev"  type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next"  type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/flamengo1895.jpg" class="d-block w-100 rounded" alt="Flamengo 1895">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2>Sobre <span class="text-colored">o clube</span></h2>
+                            <p>
+                                O Clube de Regatas do Flamengo, comumente conhecido como Flamengo, é um dos clubes de futebol mais populares e bem-sucedidos do Brasil e do mundo. Sua história remonta ao início do século XX, quando um grupo de jovens remadores fundou o clube em 17 de novembro de 1895, com o nome original de "Club de Regatas do Flamengo". A sede do clube foi estabelecida no bairro da Glória, no Rio de Janeiro.
+                            </p>
+                            <p>
+                                O Flamengo começou como um clube de remo, mas logo expandiu suas atividades esportivas para incluir outras modalidades, como futebol. Em 1912, o departamento de futebol foi oficialmente criado, marcando o início da trajetória do Flamengo no esporte mais popular do Brasil. O clube começou a competir em torneios de futebol locais e regionais.
+                            </p>
+                            <p>
+                                Nos anos que se seguiram, o Flamengo cresceu em popularidade e sucesso, conquistando títulos estaduais e expandindo sua base de torcedores. Em 1942, o clube mudou seu nome oficial para "Clube de Regatas do Flamengo," refletindo a importância crescente do futebol em relação ao remo.
+                            </p>
+                            <p>
+                                O Flamengo não é apenas um clube de futebol, mas uma verdadeira instituição cultural no Brasil, influenciando a música, a arte e a cultura de maneira significativa. Sua história rica e sua paixão inabalável pelos torcedores fazem do Flamengo um dos clubes mais emblemáticos do esporte mundial.
+                            </p>
+        </section>
+        <section id="idolos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center text-colored">Idolos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagens/zico.jpg" alt="Zico" class="idolos-imagem img-fluid d-block w-100 rounded mb-2 ">
+                        <h3 class="text-center fs-4">Zico</h3>
+                        <p>Zico foi um dos maiores ídolos da história do Flamengo, brilhando intensamente na década de 1980. Com sua habilidade excepcional e precisão nos chutes, ele marcou mais de 500 gols e liderou o time em inúmeras conquistas, tornando-se uma verdadeira lenda e ícone do futebol rubro-negro.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:731
+                            </li>
+                            <li>
+                                Gols:508
+                            </li>
+                            <li>
+                                Titulos Conquistados:18
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/junior.jpg" alt="Junior" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Junior</h3>
+                        <p>Junior, também conhecido como "Capacete", foi um dos maiores ídolos do Flamengo. Atuando como lateral-esquerdo, ele brilhou na equipe durante a década de 1980, sendo uma peça fundamental na era de ouro do clube. Sua versatilidade, técnica apurada e habilidades defensivas e ofensivas tornaram-no uma referência no futebol brasileiro e um dos pilares do time rubro-negro em suas conquistas mais importantes.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:874
+                            </li>
+                            <li>
+                                Gols:56
+                            </li>
+                            <li>
+                                Titulos Conquistados:19
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/leandro-flamengo.jpg" alt="Leandro" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Leandro</h3>
+                        <p>Leandro foi um dos maiores ídolos do Flamengo, atuando como lateral-direito. Ele brilhou no clube durante a década de 1980 e fez parte da lendária geração rubro-negra. Sua habilidade defensiva, poder ofensivo e capacidade de superar adversidades fizeram dele uma peça fundamental nas conquistas importantes do Flamengo nesse período.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:415
+                            </li>
+                            <li>
+                                Gols:14
+                            </li>
+                            <li>
+                                Titulos Conquistados:16
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/adilio.jpg" alt="adilio" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Ádilio</h3>
+                        <p>Adílio foi um meio-campista talentoso e uma figura importante no sucesso do Flamengo. Ele fez parte da lendária equipe da década de 1980, que conquistou títulos importantes, incluindo a Copa Libertadores e o Mundial Interclubes em 1981. Sua qualidade técnica e visão de jogo o tornaram uma peça chave na história vitoriosa do clube rubro-negro.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:611
+                            </li>
+                            <li>
+                                Gols:78
+                            </li>
+                            <li>
+                                Titulos Conquistados:16
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/petkovic.jpg" alt="petkovic" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Petkovic</h3>
+                        <p>Petkovic foi um jogador sérvio que se tornou um dos maiores ídolos do Flamengo. Sua passagem pelo clube, especialmente em 2009, foi marcada por gols e assistências espetaculares, incluindo cobranças de falta memoráveis. Ele foi fundamental na conquista do Campeonato Brasileiro daquele ano, ganhando o coração da torcida rubro-negra com sua habilidade técnica e carisma.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:198
+                            </li>
+                            <li>
+                                Gols:57
+                            </li>
+                            <li>
+                                Titulos Conquistados:6
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/gabi.jpg" alt="Gabigol" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Gabriel Barbosa (Gabigol)</h3>
+                        <p>O atacante brasileiro brilhou intensamente no clube desde sua chegada em 2019, destacando-se por sua capacidade de marcar gols decisivos e por ser peça chave em importantes conquistas, incluindo a Copa Libertadores da América e o Campeonato Brasileiro. Seu carisma e dedicação o tornaram querido pela torcida rubro-negra, consolidando-o como um ícone no futebol brasileiro.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:236
+                            </li>
+                            <li>
+                                Gols:147
+                            </li>
+                            <li>
+                                Titulos Conquistados:11
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/adriano.jpg" alt="adriano" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Adriano Imperador</h3>
+                        <p>Adriano, também conhecido como "Imperador", foi um atacante brasileiro que teve uma passagem marcante pelo Flamengo. Durante seu período no clube, entre 2009 e 2010, ele mostrou um futebol poderoso e eficiente, sendo fundamental na conquista do Campeonato Brasileiro de 2009. Sua habilidade de finalização e força física o tornaram uma figura adorada pela torcida rubro-negra.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:92
+                            </li>
+                            <li>
+                                Gols:45
+                            </li>
+                            <li>
+                                Titulos Conquistados:6
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/arrascaeta.jpg" alt="Arrascaeta" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Arrascaeta</h3>
+                        <p>Giorgian De Arrascaeta, conhecido como Arrascaeta, é um meia uruguaio que se tornou um dos principais destaques do Flamengo. Sua habilidade técnica excepcional, visão de jogo e precisão nos passes o tornam um jogador fundamental na equipe. Desde sua chegada em 2019, Arrascaeta tem sido peça-chave nas conquistas do clube, incluindo o Campeonato Brasileiro e a Libertadores da América.</p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:223
+                            </li>
+                            <li>
+                                Gols:57
+                            </li>
+                            <li>
+                                Titulos Conquistados:11
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/zizinho.jpg" alt="Zizinho" class="idolos-imagem img-fluid d-block w-100 rounded mb-2">
+                        <h3 class="fs-4 text-center">Zizinho</h3>
+                        <p>
+                            Zizinho foi um dos primeiros grandes ídolos do Flamengo e uma das maiores lendas do futebol brasileiro. Atuando como atacante e meio-campista, brilhou intensamente pelo clube na década de 1940, deixando uma marca indelével em sua trajetória. Sua habilidade técnica excepcional, visão de jogo e precisão nos chutes renderam-lhe o apelido de "O Mestre Ziza", eternizando seu nome na história do futebol e no coração dos torcedores rubro-negros.
+                        </p>
+                        <ul>Estatísticas:
+                            <li>
+                                Jogos:328
+                            </li>
+                            <li>
+                                Gols:145
+                            </li>
+                            <li>
+                                Titulos Conquistados:5
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="conquistas">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center mb-5">Conquistas</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#campeonato-brasileiro" class="fw-bold text-start nav-link active text-colored">Campeaonato Brasileiro</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#copa-do-brasil" class="fw-bold text-start nav-link text-colored text-colored">Copa do Brasil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#supercopa-do-brasil" class="fw-bold text-start nav-link text-colored">Supercopa do Brasil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#libertadores" class="fw-bold text-start nav-link text-colored">Libertadores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mundial" class="fw-bold text-start nav-link text-colored">Mundial</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="campeonato-brasileiro">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/brasileirao80.jpg" alt="Brasileirão 1980">
+                                        <h5 class="text-colored text-center fw-bold mt-2">Campeonato Brasileiro 1980</h5>
+                                        <p>
+                                            Raul; Toninho (Carlos Alberto), Rondinelli, Marinho, Júnior; Andrade, Carpeggiani (Adílio), Zico, Tita; Nunes e Júlio César. 
+                                        </p>
+                                        <p>
+                                            Técnico: Cláudio Coutinho.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/brasileiro82.jpg" alt="Brasileirão 1982">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 1982</h5>
+                                        <p>
+                                            Raul; Leandro, Marinho, Mozer, Júnior; Andrade, Adílio, Zico, Tita; Nunes e Lico. 
+                                        </p>
+                                        <p>
+                                            Técnico: Paulo César Carpeggiani.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/flamengo-1983.jpg" alt="flamengo-1983">
+                                        <h5 class="text-colored fw-bold mt-2">Campeaonato Brasileiro 1983</h5>
+                                        <p>
+                                            Raul; Leandro, Figueiredo (Marinho), Mozer, Júnior; Andrade (Vitor), Adílio, Zico, Robertinho (Elder), Baltazar e Lico (Júlio César)
+                                        </p>
+                                        <p>
+                                            Técnico: Carlos Alberto Torres.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/flamengo-97.jpg" alt="Flamengo 87">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 1987</h5>
+                                        <p>
+                                            Zé Carlos; Jorginho, Edinho, Leandro, Leonardo; Ailton, Andrade, Zinho, Zico; Bebeto e Renato Gaúcho.
+                                        </p>
+                                        <p>
+                                            Técnico: Carlinhos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/flamengo-92.jpg" alt="flamengo-92">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 1992</h5>
+                                        <p>
+                                            Gilmar; Charles Guerreiro, Gottardo, Rogério (Júnior Baiano), Piá; Júnior, Uidemar, Marquinhos, Zinho; Paulo Nunes (Nélio) e Gaúcho. 
+                                        </p>
+                                        <p>
+                                            Técnico: Carlinhos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/Flamengo 2009.jpg" alt="Flamengo 2009">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 2009</h5>
+                                        <p>
+                                            Bruno; Léo Moura, Álvaro, Ronaldo Angelim, Juan (Éverton); Maldonado (Toró), Airton, Willians, Petković; Zé Roberto (Emerson) e Adriano. 
+                                        </p>
+                                        <p>
+                                            Técnico: Andrade.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/flamengo 2019.jpg" alt="Flamengo 2019">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 2019</h5>
+                                        <p>
+                                            Diego Alves, Rafinha ,  Rodrigo Caio, Pablo Marí, Filipe Luís ,  Gérson, Willian Arão, Giorgian De Arrascaeta , Éverton Ribeiro, Bruno Henrique e Gabigol
+                                        </p>
+                                        <p>
+                                            Técnico: Jorge Jesus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/flamengo-2020.jpg" alt="Flamengo 2020">
+                                        <h5 class="text-colored fw-bold mt-2">Campeonato Brasileiro 2020</h5>
+                                        <p>
+                                            Hugo; Isla (Matheuzinho), Gustavo Henrique, Rodrigo Caio e Filipe Luís; Diego (João Gomes), Gerson, Everton Ribeiro e Arrascaeta; Bruno Henrique e Gabigol (Pedro)
+                                        </p>
+                                        <p>
+                                            Técnico: Rogerio Ceni.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="tab-pane" id="copa-do-brasil">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/copa-br-1990.jpg" alt="copa-br-1990">
+                                        <h5 class="text-colored fw-bold mt-2">Copa do Brasil 1990</h5>
+                                        <p>
+                                            Zé Carlos; Zanata, Vitor Hugo, Fernando (Rogério), Leonardo (Piá); Ailton, Uidemar, Djalminha (Júnior); Renato Gaúcho, Gaúcho e Zinho. 
+                                        </p>
+                                        <p>
+                                            Técnico: Jair Pereira.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/copa-br-2006.jpg" alt="copa-br-2006">
+                                        <h5 class="text-colored fw-bold mt-2">Copa do Brasil 2006</h5>
+                                        <p>
+                                            Diego; Leonardo Moura, Renato Silva, Fernando (Ronaldo Angelim),Juan; Léo (Renato Augusto), Júnior (Toró), Jônatas, Renato; Ramírez (Obina) e Luizão. 
+                                        </p>
+                                        <p>
+                                            Técnico: Ney Franco.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/CopadoBrasil2013.jpg" alt="Copa do Brasil 2013">
+                                        <h5 class="text-colored fw-bold mt-2">Copa do Brasil 2013</h5>
+                                        <p>
+                                            Felipe; Léo Moura, Wallace, Samir e André Santos; Amaral, Luiz Antônio, Elias e Carlos Eduardo; Paulinho e Hernane
+                                        </p>
+                                        <p>
+                                            Técnico: Jayme de Almeida
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/Flamengo-Copa-do-Brasil-2022.jpg" alt="Copa do Brasil 2022">
+                                        <h5 class="text-colored fw-bold mt-2">Copa do Brasil 2022</h5>
+                                        <p>
+                                            Santos, Rodinei, David Luiz, Léo Pereira e Filipe Luís; Thiago Maia (Fabrício Bruno), Vidal (Matheuzinho), Éverton Ribeiro e Arrascaeta (Victor Hugo); Pedro (Cebolinha) e Gabigol.
+                                        </p>
+                                        <p>
+                                            Técnico: Dorival Jr.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="supercopa-do-brasil">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/supercopa20.jpg" alt="Supercopa 2020">
+                                        <h5 class="text-colored fw-bold mt-2">Supercopa do Brasil 2020</h5>
+                                        <p>
+                                            Diego Alves; Rafinha, Rodrigo Caio, Gustavo Henrique e Filipe Luís; Willian Arão, Gerson, Arrascaeta e Everton Ribeiro; Bruno Henrique e Gabigol 
+                                        </p>
+                                        <p>
+                                            Técnico: Rogério  Ceni.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/Supercopa21" alt="Supercopa 2021">
+                                        <h5 class="text-colored fw-bold mt-2">Supercopa do Brasil 2021</h5>
+                                        <p>
+                                            Diego Alves; Isla, Rodrigo Caio, Willian Arão  e Filipe Luís;  Diego, Gerson, Arrascaeta e Everton Ribeiro; Bruno Henrique e Gabigol 
+                                        </p>
+                                        <p>
+                                            Técnico: Rogério  Ceni.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="libertadores">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="imagens/libertadores1981.jpg" alt="Libertadores 1981">
+                                        <h5 class="text-colored fw-bold mt-2">Libertadores 1981</h5>
+                                        <p>
+                                            Raul; Leandro, Marinho (Figueiredo), Mozer e Júnior; Andrade, Adílio, Zico, Tita; Nunes e Baroninho (Lico). 
+                                        </p>
+                                        <p>
+                                            Técnico: Paulo César Carpeggiani. 
+                                        </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="imagens/libertadores2019.jpg" alt="Libertadores 2019">
+                                            <h5 class="text-colored fw-bold mt-2">Libertadores 2019</h5>
+                                            <p>
+                                                Diego Alves, Rafinha ,  Rodrigo Caio, Pablo Marí, Filipe Luís ,  Gérson, Willian Arão, Giorgian De Arrascaeta , Éverton Ribeiro, Bruno Henrique e Gabigol. 
+                                            </p>
+                                            <p>
+                                                Técnico: Jorge Jesus. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="imagens/libertadores2022.jpg" alt="Libertadores 2022">
+                                            <h5 class="text-colored fw-bold mt-2">Libertadores 2022</h5>
+                                            <p>
+                                                Santos, Rodinei, David Luiz, Léo Pereira e Filipe Luís; Thiago Maia, João Gomes, Everton Ribeiro e Arrascaeta; Gabigol e Pedro. 
+                                            </p>
+                                            <p>
+                                                Técnico: Dorival Junior. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="mundial">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="imagens/mundial.jpg" alt="Mundial 1981">
+                                            <h5 class="text-colored fw-bold mt-2">Mundial 1981</h5>
+                                            <p>
+                                                Raul; Leandro, Marinho, Mozer, Júnior; Adílio, Andrade, Zico, Tita; Nunes e Lico.
+                                            </p>
+                                            <p>
+                                                Técnico: Paulo César Carpeggiani. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-5 pb-5" id="contato">
+                <div class="container">
+                    <div class="row">
+                        <h2 class=" text-center">Fale <span class="text-colored">conosco</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class=" mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class=" mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class=" mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                    <textarea id="mensagem" class="form-control" required></textarea>
+                                    <button type="submit" class="btn mt-3 fw-bold">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="https://pt-br.facebook.com/FlamengoOficial/">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="https://www.instagram.com/flamengo/">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="https://www.youtube.com/@flamengo">
+                                            <i class="bi bi-youtube text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p> Estr. dos Bandeirantes, 25997 - Vargem Grande, Rio de Janeiro - RJ, 22785-275</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
